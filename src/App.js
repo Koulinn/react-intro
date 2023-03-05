@@ -1,20 +1,16 @@
+import StyledButton from "./components/atoms/StyledButton/StyledButton.component";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <StyledButton
+      variant={"outlined"}
+      color="primary"
+      disabled={false}
+      type={"button"}
+      size="md"
+    >
+      Submit
+    </StyledButton>
   );
 }
 
