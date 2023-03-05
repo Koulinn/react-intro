@@ -1,6 +1,5 @@
 import React from "react";
 import StyledButton from "../atoms/StyledButton/StyledButton.component";
-import StyledLink from "../atoms/StyledLink/StyledLink.component";
 import BaseCard from "../molecules/BaseCard/BaseCard.component";
 
 const Home = () => {
@@ -18,6 +17,9 @@ const Home = () => {
           Submit
         </StyledButton>
         <BaseCard />
+        <div style={{ margin: "64px" }}>
+          
+        </div>
       </div>
     </div>
   );
