@@ -19,7 +19,7 @@ const StyledLink = ({
   return (
     <StyledMuiLink
       component={RouterLink}
-      to={to}
+      to={to} // place to navigate
       className={className}
       onClick={handleClick}
       level={level || "body1"}

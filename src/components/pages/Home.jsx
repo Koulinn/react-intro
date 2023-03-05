@@ -18,10 +18,6 @@ const Home = () => {
           Submit
         </StyledButton>
         <BaseCard />
-        <StyledLink to="/contact">Contact</StyledLink>
-        <StyledLink to="/about">About</StyledLink>
-        <StyledLink to="/details">Details</StyledLink>
-        <StyledLink to="/">Home</StyledLink>
       </div>
     </div>
   );
