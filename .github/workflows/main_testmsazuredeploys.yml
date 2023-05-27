@@ -34,7 +34,7 @@ jobs:
         run: dir /
       
       - name: Zip artifact for deployment
-        run: Compress-Archive ./build/*
+        run: powershell Compress-Archive -Path './build' -DestinationPath './release.zip'
       
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
