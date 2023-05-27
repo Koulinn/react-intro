@@ -9,18 +9,16 @@ on:
       - main
   workflow_dispatch:
 
+env:
+  CI: false
+  ANOTHER_VARIABLE: another_value
+
 jobs:
   build:
     runs-on: windows-latest
-    
 
     steps:
       - uses: actions/checkout@v3
-
-      - name: Set up environment variables
-        env:
-          CI: false
-          ANOTHER_VARIABLE: another_value
 
       - name: Set up Node.js version
         uses: actions/setup-node@v1
